@@ -41,9 +41,9 @@ export default defineComponent({
         onMounted(() => {})
         return {
             TrashBinOutline,
-            signIn,
-            signOut,
             credentials,
+            signOut,
+            signIn,
         }
     },
 })
