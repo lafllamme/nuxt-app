@@ -7,7 +7,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         apiKey: config.firebaseApiKey,
         authDomain: config.firebaseAuthDomain,
         projectId: config.firebaseProjectId,
-        storageBucket: config.fireStorageBucket,
+        storageBucket: config.firebaseStorageBucket,
         messagingSenderId: config.firebaseMsgId,
         appId: config.firebaseAppId,
         measurementId: config.firebaseMeasurementId,
